@@ -622,6 +622,10 @@ video {
   display: none;
 }
 
+.tw-h-screen {
+  height: 100vh;
+}
+
 .tw-w-full {
   width: 100%;
 }
@@ -697,19 +701,14 @@ video {
   text-align: center;
 }
 
-.tw-text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.tw-text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .tw-text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.tw-text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .tw-text-5xl {
@@ -717,8 +716,26 @@ video {
   line-height: 1;
 }
 
+.tw-text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.tw-text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .tw-font-bold {
   font-weight: 700;
+}
+
+.tw-font-extrabold {
+  font-weight: 800;
+}
+
+.tw-font-extralight {
+  font-weight: 200;
 }
 
 .tw-leading-relaxed {
@@ -807,6 +824,35 @@ svg{
   #flex{
     flex-direction: column;
   }
+}
+
+.section2{
+  background-image:url("https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/cta/cta-img-1.jpg");
+  background-attachment:fixed;
+  background-position:center;
+  background-repeat:no-repeat;
+  height:80vh;
+  padding-top:.2vh;
+}
+
+#text-decoration{
+  background: linear-gradient( 120deg , #e4a0a1, #e4a0a1 );
+  background-position: 0 80%;
+  background-repeat: no-repeat;
+  background-size: 100% 20%;
+}
+
+#btn1{
+  color:white;
+  background-color:#a30000;
+  font-size:1.3rem;
+  border-radius:10px;
+}
+
+#btn1:hover{
+  background:white;
+  border:1.5px solid red;
+  color:black;
 }
 
 .hover\:tw-bg-blue-800:hover {
